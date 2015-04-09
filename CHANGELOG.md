@@ -1,3 +1,7 @@
+## 2015-04-09 Release 1.2.1
+### Summary
+- Add generation of /etc/issue and /etc/issue.net as links to /etc/motd
+
 ## 2014-10-31 Release 1.2.0
 ### Summary
 - Add content parameter to allow setting static motd content
