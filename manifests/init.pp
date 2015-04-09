@@ -35,5 +35,13 @@ class motd (
       backup  => false,
       content => $motd_content,
     }
+        file { '/etc/issue':
+      ensure  => link,
+      target => "/etc/motd",
+    }
+    file { '/etc/issue.net':
+      ensure  => link,
+      target => "/etc/motd",
+    }
   }
 }
